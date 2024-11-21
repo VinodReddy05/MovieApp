@@ -1,0 +1,72 @@
+.movie-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 60px;
+  overflow-x: hidden;
+
+}
+
+.movie-search__title {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.movie-search__form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.movie-search__input {
+  padding: 10px;
+  font-size: 1rem;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  width: 200px;
+}
+
+.movie-search__button {
+  padding: 10px;
+  color: black;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.movie-search__container {
+  display: flex;
+  overflow-x: scroll; /* Allow horizontal scroll */
+  direction: rtl; /* Enable right-to-left scrolling */
+  width: 100%;
+  padding: 10px 0;
+}
+
+.movie-search__card {
+  flex: 0 0 auto;
+  margin: 10px;
+  text-align: center;
+  max-width: 150px; /* Optional: Set max width for cards */
+}
+
+.movie-search__poster {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.movie-search__title--movie {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.movie-search__no-results {
+  font-size: 1.2rem;
+  color: #666;
+  text-align: center;
+}
